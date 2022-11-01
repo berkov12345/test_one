@@ -1,5 +1,5 @@
 import requests
-import json
+
 
 
 url = 'https://api.chucknorris.io/jokes/categories'
