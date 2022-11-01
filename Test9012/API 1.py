@@ -1,5 +1,5 @@
 import requests
-
+# https://github.com/berkov12345/test-Git-1/tree/work-1
 
 
 url = 'https://api.chucknorris.io/jokes/categories'
