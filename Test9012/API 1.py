@@ -6,4 +6,9 @@ url = 'https://api.chucknorris.io/jokes/categories'
 print(url)
 result = requests.get(url)
 print ("Статус код" + " "+str(result.status_code) )
-print(result.text)
+assert 200 == result.status_code
+if result.status_code == 200:
+	print('четко статус 200 ')
+else:
+	print ('не четко')
+	print (result)
