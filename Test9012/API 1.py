@@ -9,6 +9,7 @@ print ("Статус код" + " "+str(result.status_code) )
 assert 200 == result.status_code
 if result.status_code == 200:
 	print('четко статус 200 ')
+	print (result.text)
 else:
 	print ('не четко')
-	print (result)
+	
