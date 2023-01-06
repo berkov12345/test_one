@@ -1,8 +1,9 @@
 import requests
-
+import pytest
 class Price_post():
 	
-	def art_452853 (self):
+
+	def test_art_452853 (self):
 	
 		url_1 = 'http://core.test.fozzy.lan:8167/Price/'
 		
@@ -38,6 +39,9 @@ class Price_post():
 		assert 200 == result_post.status_code
 		if result_post.status_code == 200:
 			print ('цена получена')
+		else:
+			print ('цена не получена')
+			
 price_art = Price_post()
-price_art.art_452853()
+price_art.test_art_452853()
 		
