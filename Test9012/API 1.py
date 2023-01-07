@@ -11,5 +11,5 @@ if result.status_code == 200:
 	print('четко статус 200 ')
 	print (result.text)
 else:
-	print ('ниy8hчетконнг')
+	print ('ниywhчетк0оннг')
 	
